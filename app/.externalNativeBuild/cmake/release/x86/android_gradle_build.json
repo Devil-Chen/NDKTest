@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/apple/Desktop/Android_Project/NDKTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/apple/Desktop/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"nativeLib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "nativeLib",
+			"buildCommand" : "/Users/apple/Desktop/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/release/x86 --target nativeLib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/platforms/android-22/arch-x86  -DnativeLib_EXPORTS -I//Users/apple/Desktop/Android_Project/NDKTest/app/src/main/jni/include -isystem /Users/apple/Desktop/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/Desktop/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/apple/Desktop/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/Desktop/Android_Project/NDKTest/app/src/main/cpp/nativeLib.cpp",
+					"workingDirectory" : "/Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/apple/Desktop/Android_Project/NDKTest/app/build/intermediates/cmake/release/obj/x86/libnativeLib.so",
+			"toolchain" : "11502270278093845037"
+		},
+		"openssl-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "openssl",
+			"buildType" : "release",
+			"output" : "//Users/apple/Desktop/Android_Project/NDKTest/app/src/main/jni/libs/x86/libcrypto.a",
+			"toolchain" : "11502270278093845037"
+		}
+	},
+	"toolchains" : 
+	{
+		"11502270278093845037" : 
+		{
+			"cCompilerExecutable" : "/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

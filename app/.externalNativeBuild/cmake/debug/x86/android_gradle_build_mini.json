@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/Users/apple/Desktop/Android_Project/NDKTest/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/apple/Desktop/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "openssl-Debug-x86": {
+      "artifactName": "openssl",
+      "abi": "x86",
+      "output": "/Users/apple/Desktop/Android_Project/NDKTest/app/src/main/jni/libs/x86/libcrypto.a"
+    },
+    "nativeLib-Debug-x86": {
+      "artifactName": "nativeLib",
+      "buildCommand": "/Users/apple/Desktop/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/debug/x86 --target nativeLib",
+      "abi": "x86",
+      "output": "/Users/apple/Desktop/Android_Project/NDKTest/app/build/intermediates/cmake/debug/obj/x86/libnativeLib.so"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/apple/Desktop/Android_Project/NDKTest/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/apple/Desktop/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"nativeLib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "nativeLib",
+			"buildCommand" : "/Users/apple/Desktop/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/release/armeabi-v7a --target nativeLib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/platforms/android-22/arch-arm  -DnativeLib_EXPORTS -I//Users/apple/Desktop/Android_Project/NDKTest/app/src/main/jni/include -isystem /Users/apple/Desktop/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/Desktop/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/Desktop/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/Desktop/Android_Project/NDKTest/app/src/main/cpp/nativeLib.cpp",
+					"workingDirectory" : "/Users/apple/Desktop/Android_Project/NDKTest/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/apple/Desktop/Android_Project/NDKTest/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnativeLib.so",
+			"toolchain" : "11502270278093845037"
+		},
+		"openssl-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "openssl",
+			"buildType" : "release",
+			"output" : "//Users/apple/Desktop/Android_Project/NDKTest/app/src/main/jni/libs/armeabi-v7a/libcrypto.a",
+			"toolchain" : "11502270278093845037"
+		}
+	},
+	"toolchains" : 
+	{
+		"11502270278093845037" : 
+		{
+			"cCompilerExecutable" : "/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/apple/Desktop/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
